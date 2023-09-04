@@ -312,12 +312,12 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Masud-Hridoye404/PAID-TEST/blob/main/CONTROL.tex").text
+    DARK=requests.get("https://github.com/BAYGID54/BAYGID").text
     if id in DARK:
         Main()
     else:
         os.system("clear")
-        os.system("xdg-open https://www.facebook.com/profile.php?id=100093402519904")
+        os.system("xdg-open https://www.facebook.com/md.baygid.1428?mibextid=ZbWKwL")
         time.sleep(3.0)
         
         os.system("clear")
