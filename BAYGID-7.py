@@ -312,7 +312,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/BAYGID54/BAYGID").text
+    DARK=requests.get("https://github.com/BAYGID54/BAYGID/blob/main/ami%20nai.txt").text
     if id in DARK:
         Main()
     else:
